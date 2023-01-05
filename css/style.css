@@ -1,0 +1,166 @@
+
+body{
+    background-color: darkslateblue;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+/* Dimensionement des containeur et mise en forme (travail fait de 19h pour reussir à 00h02min mince */
+.aside{
+   display: flexbox;
+   width: 300px;
+   height: 800px;
+   margin-left: 7em;
+   color: white;
+   border-radius: 14px 14px 14px 14px;
+   /* opacity: 30%; */
+   background-color: rgb(196, 191, 191);
+   
+}
+
+.contenu{
+    display: flexbox;
+    width: 490px;
+    height: 800px;
+    margin-left: 26.3em;
+    margin-top: -800px;
+    border-radius: 14px 14px 14px 14px;
+    background-color: white;
+}
+
+/* Dimensionement des containeur et mise en forme*/
+
+
+/* mise en forme du texte informations personnelles */
+.info h1{
+    color: white; 
+    font-family: 'Helvetica Neue';
+    padding-left: 1em;
+    padding-top: 1.2em;
+    letter-spacing: 2px;
+}
+
+.info p{
+    color: white;
+    padding-left: 2em;
+}
+
+
+strong{
+    font-weight: bold;
+}
+
+#img_pro{
+    width: 8.9em;
+    height: 8.9em;
+    margin-top: -5em;
+    margin-left: 4.8em;
+    border-radius: 14em;
+}
+/*************************************************
+mise en forme du texte informations personnelles
+**************************************************/
+
+
+/*************************************************
+resumé sur a propos de moi, mes capacités
+**************************************************/
+
+.a_propos{
+    background-color: rgb(117, 116, 116);
+    width: 200px; 
+    height: 180px;
+    margin-top: 5em;
+    border-radius: 14px 14px 14px 14px;
+    margin-left: 3.9em;
+    font-size: 11px;
+
+}
+
+h2{
+    text-align: center;
+}
+
+/*************************************************
+resumé sur a propos de moi, mes capacités
+**************************************************/
+
+
+/*************************************************
+contacts : mail, numero, site affilé, compte pro
+**************************************************/
+
+
+.contacts .mail{
+    width: 200px;
+    height: 25px;
+    margin-bottom: 1em;
+    background-color: rgb(117, 116, 116);
+    border-radius: 12em;
+    margin-left: 3em;
+    margin-right: 2em;
+    text-align: center;
+    font-size: 14px;
+}
+
+.contacts .numero{
+    width: 200px;
+    height: 25px;
+    margin-bottom: 1em;
+    background-color: rgb(117, 116, 116);
+    border-radius: 12em;
+    margin-left: 3em;
+    margin-right: 2em;
+    text-align: center;
+    font-size: 14px;
+}
+
+.contacts .sites{
+    width: 200px;
+    height: 25px;
+    margin-bottom: 1em;
+    background-color: rgb(117, 116, 116);
+    border-radius: 12em;
+    font-size: 14px;
+    margin-left: 3em;
+    margin-right: 2em;
+    text-align: center;
+}
+/*************************************************
+contacts : mail, numero, site affilé, compte pro
+**************************************************/
+
+.formations{
+    font-size: 12px;
+}
+
+h4{
+    width: 7em;
+    height: 2em;
+    background-color: blueviolet;
+    border-radius: 14em;
+    text-align: center;
+}
+
+hr{
+    width: 350px;
+    margin-left: 7em;
+    border: dotted;
+}
+
+tfoot{
+    text-align: center;
+    color: blueviolet;
+    font-style: italic;
+}
+
+.langues{
+    margin-left: 2.5em;
+}
+
+.loisir{
+    margin-left: 2.5em;
+}
+.formations{
+    padding-top: 2em;
+}
